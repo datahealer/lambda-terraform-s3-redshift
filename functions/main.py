@@ -41,7 +41,7 @@ def create_bucket(bucket_name, region=None):
     return True
 
 
-def lambda_handler(event, context):
+def handler(event, context):
     """
     Input key1 to 0 for listing, 1 for creating bucket.
     :param event["key1"]: 0 or 1
