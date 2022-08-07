@@ -1,4 +1,3 @@
 variable "AWS_REGION" { default = "us-east-1" }
-variable "PROJECT" { default = "lambda-terraform" }
-variable "FUNCTION_MAIN" { default = "functions/main" }
+variable "PROJECT" { default = "redshift-s3" }
 variable "ENV" { default = "test" }
