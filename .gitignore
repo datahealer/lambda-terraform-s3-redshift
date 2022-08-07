@@ -4,3 +4,6 @@ output
 terraform.tfstate
 .terraform.tfstate.lock.info
 terraform.tfstate.backup
+dependencies
+*.zip
+.DS_Store

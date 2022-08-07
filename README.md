@@ -60,7 +60,7 @@ This example demonstrates creating a Lambda function in Python language and depl
 ## Project
 
 - After you deploy this project, a Lambda function and an IAM role will be created in us-east-1 region. You can change AWS_REGION variable under **variables.tf** file. Under **provider.tf** file, you can see the AWS as provider.
-- In **iam.tf**, 'lambda_role_s3' and 'lambda_policy' for Lambda function will be created. This is like creating a user and attach a policy with management console. lambda_role_s3 has full access for S3 and CloudWatch. You may wanna change this permissions under Statement for security purposes. You can check out [this site](https://awspolicygen.s3.amazonaws.com/policygen.html) to create AWS policies.
+- In **iam.tf**, 's3_role_new' and 'lambda_policy' for Lambda function will be created. This is like creating a user and attach a policy with management console. s3_role_new has full access for S3 and CloudWatch. You may wanna change this permissions under Statement for security purposes. You can check out [this site](https://awspolicygen.s3.amazonaws.com/policygen.html) to create AWS policies.
 - **lambda.tf** file will create firstly a zip for .py file. Then it will create a Lambda function. Lambda function will have:
   - IAM role which is created from **iam.tf**
   - Project name which is defined in **variables.tf**
