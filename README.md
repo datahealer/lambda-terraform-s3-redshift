@@ -1,7 +1,6 @@
 # Python, Pandas, Lambda, Terraform, S3, Parquet, Redshift
 
-This example demonstrates creating a Lambda function in Python language and deploy it using Terraform. The example also demonstrates the use of Pandas, S3, Parquet & Redshift.
-
+This example demonstrates creating a Lambda function in Python language and deploy it using Terraform. For examples of Pandas, S3, Parquet & Redshift. See: https://github.com/datahealer/jupyter-s3-parquet-redshift
 <table>
   <tr>
     <td>
